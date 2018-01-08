@@ -5,5 +5,5 @@ os:
 env:
   - DB=sqlite3
 script: 
-  - rails test
+  - rake test
 
