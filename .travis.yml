@@ -6,5 +6,4 @@ env:
   - DB=sqlite3
 script: 
   - rake test
-before_script:
-  - cp config/database.yml config/database.yml
+
