@@ -8,4 +8,4 @@ script:
   - rake test
 before_script:
   - cp config/database.yml config/database.yml
-bundler_args: --binstubs=./bundler_stubs
+  - bundle lock --add-platform x86-mingw32 x86-mswin32
