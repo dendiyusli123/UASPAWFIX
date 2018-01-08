@@ -1,5 +1,7 @@
 language: ruby
 
+os:
+  - windows
 env:
   - DB=sqlite3
 script: 
