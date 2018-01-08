@@ -5,5 +5,5 @@ os:
 env:
   - DB=sqlite3
 script: 
-  - rake test
+  - bundle exec rake test
 
