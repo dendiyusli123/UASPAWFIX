@@ -5,7 +5,4 @@ os:
 env:
   - DB=sqlite3
 script: 
-  - rails test
-before_script:
-  - bundle update
-  - gem install bundler
+  - rake test test/controller/
