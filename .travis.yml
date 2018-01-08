@@ -9,3 +9,4 @@ script:
 before_script:
   - cp config/database.yml config/database.yml
   - bundle lock --add-platform x86-mingw32 x86-mswin32
+  - bundle install
