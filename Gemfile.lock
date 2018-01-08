@@ -187,8 +187,8 @@ GEM
       sprockets-rails (>= 2.0, < 4.0)
 
 PLATFORMS
-  ruby
-  x86_64-linux
+  x86-mingw32
+  x86-mswin32
 DEPENDENCIES
   activesupport (~> 4.2.1)
   bootstrap-sass (~> 3.3.4.1)
